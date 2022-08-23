@@ -1,0 +1,223 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "76b23baf-9ce9-4b76-8333-4b127242fed0",
+   "metadata": {},
+   "source": [
+    "# Missing & Stolen Asset Runbook"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0aba15a0-13a2-4367-90d0-6019224204f3",
+   "metadata": {},
+   "source": [
+    "### Check IOCs ###\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a6316761-f791-4755-8053-a80b6a702015",
+   "metadata": {
+    "jp-MarkdownHeadingCollapsed": true,
+    "tags": []
+   },
+   "source": [
+    "*Validate Hashes :*"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b1a9c812-30bd-469e-a692-4ec67c549af9",
+   "metadata": {},
+   "source": [
+    "<< Enter Hash value >>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "db26bd5d-4f52-481d-a438-430342f71d12",
+   "metadata": {},
+   "source": [
+    "*Validate Links :*"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6c67e326-95f9-4a92-8cfb-2ca433b73e8d",
+   "metadata": {},
+   "source": [
+    "<< Enter Link >>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "86b1d1b1-62ce-4c4a-b8f8-ec6cb23f8393",
+   "metadata": {
+    "jp-MarkdownHeadingCollapsed": true,
+    "tags": []
+   },
+   "source": [
+    "*Validate Domain :*"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4af14747-3165-4a61-8208-4d9b841862cd",
+   "metadata": {},
+   "source": [
+    "<< Enter Domain value >>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7e74653a-b298-44ff-a72d-ececd905f4ad",
+   "metadata": {},
+   "source": [
+    "Number of Users received the Phishing Email"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2482000a-35d3-4f9f-aa6d-b672046f174f",
+   "metadata": {},
+   "source": [
+    "<< Variable(Sender email address) to check the phishing email via Splunk Query >>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ca3ed58c-c3bb-4648-89a6-60d63881363b",
+   "metadata": {},
+   "source": [
+    "<< Query with Execution & output option >>"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "62cbf314-eefe-4b0d-9207-86c0c658794a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ab4813ec-388c-4d98-ae1c-439d34bfc420",
+   "metadata": {},
+   "source": [
+    "Details of Users opened the attachment or clicked on the suspicious link in the Phishing Email"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2dcbb6b8-7151-4084-9854-93f4b61ae33e",
+   "metadata": {},
+   "source": [
+    "<< Variable(attachment name or hash) to check via Splunk Query >>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5bdbae19-2ecf-4485-888a-b4947809ffa0",
+   "metadata": {},
+   "source": [
+    "<< Query with Execution & output option >>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9cf44f74-d2a1-4157-b311-23fe6640919c",
+   "metadata": {},
+   "source": [
+    "Details of Users clicked on the suspicious link in the Phishing Email"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4e7bf3ae-05d0-4b60-9c83-45cbd2a3a035",
+   "metadata": {},
+   "source": [
+    "<< Variable(suspicious link) to check via Splunk Query >>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f84510a1-5707-4a5e-8838-e37be23c8543",
+   "metadata": {},
+   "source": [
+    "<< Query with Execution & output option >>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7b7ef5a1-4ad4-4f67-b7a3-4acbddaf1685",
+   "metadata": {},
+   "source": [
+    "Details of Users reported & not reported the Phishing Email"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ec4d1179-8a9f-4dc2-b0df-d3e0b72ef0da",
+   "metadata": {},
+   "source": [
+    "<< Variable(sender email) to check via Splunk Query >>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "32a374d1-7af5-482f-b62e-3cd0c655d556",
+   "metadata": {},
+   "source": [
+    "<< Query with Execution & output option >>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "df128b88-6835-4baf-80d9-dc993a734a7e",
+   "metadata": {},
+   "source": [
+    "Details of Users provided any personal or confidential information to the attacker"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5594880b-47a7-4e4a-a4d4-b295f33bd731",
+   "metadata": {},
+   "source": [
+    "<< Confirm with user manualy and enter the detail below>>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "52f204fd-bd6d-499c-b366-6dc4f45711da",
+   "metadata": {},
+   "source": [
+    "<< Text Box for anlyst Input >>"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.6.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
