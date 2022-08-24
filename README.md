@@ -23,3 +23,4 @@ Splunk using Jupyter - Links
 1. https://www.splunk.com/en_us/blog/platform/a-jupyter-notebook-and-a-google-doc-go-into-a-bar.html
 2. https://www.splunk.com/en_us/blog/platform/get-to-know-splunk-machine-learning-environment-smle.html
 3. https://www.youtube.com/watch?v=a-n94qZ5xrI
+4. https://www.splunk.com/en_us/blog/platform/configure-jupyter-notebook-to-interact-with-splunk-enterprise-the-splunk-machine-learning-toolkit.html
