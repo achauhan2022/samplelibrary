@@ -9,7 +9,7 @@
 3. Select respective Notebook and Execute the cells  
 
 ### Option 2: 
-1. Open https://www.mybinder.org and page with options as in the image below will come
+1. Open [https://www.mybinder.org](https://mybinder.org/)and page with options as in the image below will come
 ![image](https://user-images.githubusercontent.com/111838404/186414915-c9078e84-a69f-4847-986a-e2e6c4bf3f31.png)
 2. Copy paste the GitHub url of the repository
 3. Enter main in Git ref text box 
