@@ -10,8 +10,9 @@
 
 ### Option 2: 
 1. Open [Binder] (https://mybinder.org/) and page with options as in the image below will come
-2. 
+
 ![image](https://user-images.githubusercontent.com/111838404/186414915-c9078e84-a69f-4847-986a-e2e6c4bf3f31.png)
+
 2. Copy paste the GitHub url of the repository
 3. Enter main in Git ref text box 
 4. Click on the launch button
