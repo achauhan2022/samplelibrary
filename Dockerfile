@@ -1,5 +1,8 @@
 
-# License: GPL-3.0
+
+FROM cyb3rward0g/jupyter-pyspark:0.0.4
+LABEL maintainer="Roberto Rodriguez @Cyb3rWard0g"
+LABEL description="Dockerfile ThreatHunter Playbook Project."
 
 ARG NB_USER
 ARG NB_UID
